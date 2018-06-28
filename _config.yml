@@ -1,0 +1,55 @@
+# Site settings
+title: Coffer Chain
+description: Precious Blockchain based IoT Platform
+cover: assets/images/radhakrishna.jpg
+logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
+url: "http://cofferchain.com" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+# Social
+facebook: cofferchain
+twitter: cofferchain
+github:  cofferchain
+
+#Additional Pages
+about: about
+contact: contact
+
+permalink: /:title
+
+
+# Google Analytics
+analytics_id: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate
+
+
+# Settings for rake task
+safe: False
+lsi: False
+username: cofferchain #github username
+repo: cofferchain.github.io #github repository
+branch: master #branch
+relative_source: ../cofferchain/ #source directory
+destination: ../cofferchain-pages/ #destination directory
+production_url:  https://cofferchain.com/
+source_url:  https://github.com/cofferchain/cofferchain #source repository url
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
