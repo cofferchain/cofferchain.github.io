@@ -14,8 +14,8 @@ twitter: cofferchain
 github:  cofferchain
 
 #Additional Pages
-about: about
-contact: contact
+about: /about
+contact: /contact
 
 permalink: /:title
 
