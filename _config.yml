@@ -1,55 +1,20 @@
 # Site settings
 title: Coffer Chain
 description: Precious Blockchain based IoT Platform
-cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
-favicon: assets/images/favicon.png
-baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
-url: "http://cofferchain.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-# Social
-facebook: cofferchain
-twitter: cofferchain
-github:  cofferchain
+# User settings
+username: Cofferchain
+user_description: Precious Blockchain based IoT Platform
+user_title: Precious Blockchain based IoT Platform
+email: cofferchain@gmail.com
+twitter_username: cofferchain
+github_username:  cofferchain
+facebook_username:  cofferchain
 
-#Additional Pages
-about: /about
-contact: /contact
+# Google-analytics
+google-analytics:
+  id: ""
 
-permalink: /:title
-
-
-# Google Analytics
-analytics_id: ""
-
-# Build settings
-markdown: kramdown
-
-kramdown:
-  parse_block_html: true
-
-plugins:
-  - jekyll-paginate
-
-
-# Settings for rake task
-safe: False
-lsi: False
-username: cofferchain #github username
-repo: cofferchain.github.io #github repository
-branch: master #branch
-relative_source: ../cofferchain/ #source directory
-destination: ../cofferchain-pages/ #destination directory
-production_url:  https://cofferchain.com/
-source_url:  https://github.com/cofferchain/cofferchain #source repository url
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
+exclude: ['package.json', 'src' , 'node_modules']
