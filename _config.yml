@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Coffer Chain
 description: Precious Blockchain based IoT Platform
@@ -18,3 +19,6 @@ google-analytics:
   id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
+=======
+theme: jekyll-theme-cayman
+>>>>>>> 98fe54f7b34348a94f5e9979d3e52ce5bbe9190b
